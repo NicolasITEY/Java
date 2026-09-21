@@ -1,0 +1,1139 @@
+{
+  "timedGame": true,
+  "moveNumber": 0,
+  "timeWhite": {
+    "tempsDepart": 1773222420727,
+    "tempsFin": 1773222480727,
+    "pauseDepart": 1773222420727,
+    "duree": 60000
+  },
+  "timeBlack": {
+    "tempsDepart": 1773222420727,
+    "tempsFin": 1773222480727,
+    "pauseDepart": 1773222420727,
+    "duree": 60000
+  },
+  "turnWhite": true,
+  "board": {
+    "pieceMatrix": [
+      [
+        {
+          "type": "Rook",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 8,
+          "pos": {
+            "x": 0,
+            "y": 0
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "rep": "r"
+        },
+        {
+          "type": "Knight",
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 1,
+            "y": 0
+          },
+          "pattern": [
+            {
+              "x": -2,
+              "y": -1
+            },
+            {
+              "x": -2,
+              "y": 1
+            },
+            {
+              "x": -1,
+              "y": -2
+            },
+            {
+              "x": -1,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": -1
+            },
+            {
+              "x": 2,
+              "y": 1
+            }
+          ],
+          "rep": "n"
+        },
+        {
+          "type": "Bishop",
+          "isWhite": false,
+          "range": 8,
+          "pos": {
+            "x": 2,
+            "y": 0
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": -1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "b"
+        },
+        {
+          "type": "Queen",
+          "isWhite": false,
+          "range": 8,
+          "pos": {
+            "x": 3,
+            "y": 0
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": -1,
+              "y": 0
+            },
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": -1
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "q"
+        },
+        {
+          "type": "King",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 4,
+            "y": 0
+          },
+          "pattern": [
+            {
+              "x": -2,
+              "y": 0
+            },
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": -1,
+              "y": 0
+            },
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": -1
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 2,
+              "y": 0
+            }
+          ],
+          "rep": "k"
+        },
+        {
+          "type": "Bishop",
+          "isWhite": false,
+          "range": 8,
+          "pos": {
+            "x": 5,
+            "y": 0
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": -1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "b"
+        },
+        {
+          "type": "Knight",
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 6,
+            "y": 0
+          },
+          "pattern": [
+            {
+              "x": -2,
+              "y": -1
+            },
+            {
+              "x": -2,
+              "y": 1
+            },
+            {
+              "x": -1,
+              "y": -2
+            },
+            {
+              "x": -1,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": -1
+            },
+            {
+              "x": 2,
+              "y": 1
+            }
+          ],
+          "rep": "n"
+        },
+        {
+          "type": "Rook",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 8,
+          "pos": {
+            "x": 7,
+            "y": 0
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "rep": "r"
+        }
+      ],
+      [
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 0,
+            "y": 1
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "p"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 1,
+            "y": 1
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "p"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 2,
+            "y": 1
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "p"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 3,
+            "y": 1
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "p"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 4,
+            "y": 1
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "p"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 5,
+            "y": 1
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "p"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 6,
+            "y": 1
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "p"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": false,
+          "range": 1,
+          "pos": {
+            "x": 7,
+            "y": 1
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "p"
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 0,
+            "y": 6
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": -1
+            }
+          ],
+          "rep": "P"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 1,
+            "y": 6
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": -1
+            }
+          ],
+          "rep": "P"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 2,
+            "y": 6
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": -1
+            }
+          ],
+          "rep": "P"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 3,
+            "y": 6
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": -1
+            }
+          ],
+          "rep": "P"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 4,
+            "y": 6
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": -1
+            }
+          ],
+          "rep": "P"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 5,
+            "y": 6
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": -1
+            }
+          ],
+          "rep": "P"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 6,
+            "y": 6
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": -1
+            }
+          ],
+          "rep": "P"
+        },
+        {
+          "type": "Pawn",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 7,
+            "y": 6
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": -1
+            }
+          ],
+          "rep": "P"
+        }
+      ],
+      [
+        {
+          "type": "Rook",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 8,
+          "pos": {
+            "x": 0,
+            "y": 7
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "rep": "R"
+        },
+        {
+          "type": "Knight",
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 1,
+            "y": 7
+          },
+          "pattern": [
+            {
+              "x": -2,
+              "y": -1
+            },
+            {
+              "x": -2,
+              "y": 1
+            },
+            {
+              "x": -1,
+              "y": -2
+            },
+            {
+              "x": -1,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": -1
+            },
+            {
+              "x": 2,
+              "y": 1
+            }
+          ],
+          "rep": "N"
+        },
+        {
+          "type": "Bishop",
+          "isWhite": true,
+          "range": 8,
+          "pos": {
+            "x": 2,
+            "y": 7
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": -1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "B"
+        },
+        {
+          "type": "Queen",
+          "isWhite": true,
+          "range": 8,
+          "pos": {
+            "x": 3,
+            "y": 7
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": -1,
+              "y": 0
+            },
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": -1
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "Q"
+        },
+        {
+          "type": "King",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 4,
+            "y": 7
+          },
+          "pattern": [
+            {
+              "x": -2,
+              "y": 0
+            },
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": -1,
+              "y": 0
+            },
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": -1
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 2,
+              "y": 0
+            }
+          ],
+          "rep": "K"
+        },
+        {
+          "type": "Bishop",
+          "isWhite": true,
+          "range": 8,
+          "pos": {
+            "x": 5,
+            "y": 7
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": -1
+            },
+            {
+              "x": -1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": -1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "rep": "B"
+        },
+        {
+          "type": "Knight",
+          "isWhite": true,
+          "range": 1,
+          "pos": {
+            "x": 6,
+            "y": 7
+          },
+          "pattern": [
+            {
+              "x": -2,
+              "y": -1
+            },
+            {
+              "x": -2,
+              "y": 1
+            },
+            {
+              "x": -1,
+              "y": -2
+            },
+            {
+              "x": -1,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": -2
+            },
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": -1
+            },
+            {
+              "x": 2,
+              "y": 1
+            }
+          ],
+          "rep": "N"
+        },
+        {
+          "type": "Rook",
+          "isFirstMove": true,
+          "isWhite": true,
+          "range": 8,
+          "pos": {
+            "x": 7,
+            "y": 7
+          },
+          "pattern": [
+            {
+              "x": -1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -1
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "rep": "R"
+        }
+      ]
+    ],
+    "width": 8,
+    "height": 8,
+    "moveNumber": 1,
+    "turnWhite": true,
+    "halfClockTimer": 0,
+    "castleRights": "KQkq",
+    "whiteMated": false,
+    "blackMated": false
+  }
+}
